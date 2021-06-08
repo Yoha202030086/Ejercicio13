@@ -1,0 +1,29 @@
+InicioOperaciones 
+  var Sumar
+  var Dividir 
+  var oper
+
+ Escribir '1. Suma'
+ Escribir '2. Division'
+ leer(oper)
+
+  Si oper=1 Entonces
+   Escribir "Ingresar primer num: "
+   leer(num1)
+   Escribir "Ingresar segundo num: "
+   leer(num2)
+   result <- num1 + num2
+   Escribir "El resultado de la suma es: ",resul
+ FinSi
+
+   Si oper=2 Entonces
+    Escribir "Ingresar primer num: "
+    leer(num1)
+    Escribir "Ingresar segundo num: " 
+    leer(num2)
+    result <- mun1 / num2
+    Escribir "El resultado de la division es: ",resul
+   SiNo 
+  Salir
+ FinSi
+FinOperaciones
